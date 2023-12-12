@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.4439372, g: 0.49315345, b: 0.5721989, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1445,6 +1445,10 @@ PrefabInstance:
       propertyPath: ScriptTxt
       value: 
       objectReference: {fileID: 2131487116}
+    - target: {fileID: 5556378182489013903, guid: 39d042f619f57264386dd3fc1e036d45, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160715892096136783, guid: 39d042f619f57264386dd3fc1e036d45, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1542,6 +1546,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6042100816387974552, guid: 4c168e955bf2e2744b1ef5f6b5314ae5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6203198589745146675, guid: 4c168e955bf2e2744b1ef5f6b5314ae5, type: 3}
       propertyPath: Cam
       value: 
@@ -1564,6 +1572,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 631447854}
     m_Modifications:
+    - target: {fileID: 1015099100090303268, guid: 0aa74546007624045a366b7235053009, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2703638052829746986, guid: 0aa74546007624045a366b7235053009, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1657,6 +1669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 631447854}
     m_Modifications:
+    - target: {fileID: 168100526978633181, guid: 2d77e5c4ec7d59749941281655c549a7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2044499602110279785, guid: 2d77e5c4ec7d59749941281655c549a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1749,6 +1765,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 631447854}
     m_Modifications:
+    - target: {fileID: 453811087740776652, guid: 0fcaf0954b2ea764b88d994d733faf45, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1746407026213372410, guid: 0fcaf0954b2ea764b88d994d733faf45, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.76
@@ -1959,6 +1979,10 @@ PrefabInstance:
       propertyPath: Cam
       value: 
       objectReference: {fileID: 507886215}
+    - target: {fileID: 7626625943903973945, guid: 8af07f3ea24c32946bfdf165120189d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8746681010844168419, guid: 8af07f3ea24c32946bfdf165120189d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

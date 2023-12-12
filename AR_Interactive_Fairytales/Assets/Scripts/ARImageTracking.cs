@@ -16,7 +16,7 @@ public class ARImageTracking : MonoBehaviour
     private List<ARTrackedImage> _trackedImg = new List<ARTrackedImage>();
     private List<float> _trackedTimer = new List<float>();
 
-    private int count = 0;  //활성화된 오브젝트수
+    private int count = 0;  //???????? ??????????
 
     void Awake()
     {
@@ -29,7 +29,7 @@ public class ARImageTracking : MonoBehaviour
 
     void Update()
     {
-        if (_trackedImg.Count == 0)      //활성화된 오브젝트가 1개이상이면
+        if (_trackedImg.Count == 0)      //???????? ?????????? 1??????????
         {
             foreach (GameObject obj in _objectList)
             {
@@ -73,7 +73,7 @@ public class ARImageTracking : MonoBehaviour
                     _trackedImg.Remove(_trackedImg[num]);
                     _trackedTimer.Remove(_trackedTimer[num]);
 
-                    TrackingPage.text = "해당 페이지에는 컨텐츠가 존재하지 않습니다.";
+                    TrackingPage.text = "???? ?????????? ???????? ???????? ????????.";
                 }
             }
         }
@@ -133,7 +133,7 @@ public class ARImageTracking : MonoBehaviour
         GameObject tObj = _prefabDic[name];
 
         //tObj.transform.position = trackedImage.transform.position*50;
-        tObj.transform.position = new Vector3(trackedImage.transform.position.x, trackedImage.transform.position.y - 6.0f, trackedImage.transform.position.z + 8.0f);
+        tObj.transform.position = new Vector3(trackedImage.transform.position.x, trackedImage.transform.position.y - 10.0f, trackedImage.transform.position.z + 7.5f);
         
         //tObj.transform.rotation = trackedImage.transform.rotation;
         //TrackingPage.text = "Tracking" + name;
