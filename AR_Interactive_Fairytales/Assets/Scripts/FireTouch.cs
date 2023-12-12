@@ -11,7 +11,7 @@ public class FireTouch : MonoBehaviour
     //[SerializeField] private GameObject[] Fire = new GameObject[2];
     private string handTag = "Player";
     private int count  = 0;
-    [SerializeField] public Text ScriptTxt;
+    //[SerializeField] public Text ScriptTxt;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class FireTouch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScriptTxt.text = "touch" + count;
+        //ScriptTxt.text = "touch" + count;
         ChangeFire();
     }
 
@@ -35,7 +35,7 @@ public class FireTouch : MonoBehaviour
         {
             count += 1;
 
-            //Handheld.Vibrate();
+            Handheld.Vibrate();
         }
 
     }
